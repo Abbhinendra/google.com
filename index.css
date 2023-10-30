@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    overflow-x:hidden;
+    color: white;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 26px;
+}
+header img{
+    width:286px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top:7%;
+    flex-direction: column;
+    align-items: center;
+}
+header input{
+    border:1px  solid rgb(84, 83, 83);
+    padding:14px;
+    outline: none;
+    font-size:16px;
+    font-weight: 400;
+    border-radius: 26px;
+    width:50vw;
+    margin: auto;
+
+}
+header input:hover{
+    border: 1px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container{
+    margin-top:16%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box div{
+    margin: 12px 8px;
+}
+
+.btn-p{
+border:1px solid white;
+color: black;
+}
+.card{
+    color: black;
+}
+@media screen and (max-width: 1006px) {
+    header input{
+        border:1px  solid rgb(84, 83, 83);
+        padding:14px;
+        outline: none;
+        font-size:16px;
+        font-weight: 400;
+        border-radius: 26px;
+        width:70vw;
+        margin: auto;
+    
+    }
+  }
+  @media screen and (max-width: 700px) {
+    header input{
+        border:1px  solid rgb(84, 83, 83);
+        padding:14px;
+        outline: none;
+        font-size:16px;
+        font-weight: 400;
+        border-radius: 26px;
+        width:86vw;
+        margin: auto;
+    
+    }
+  }
+  @media screen and (max-width: 512px) {
+    header input{
+        border:1px  solid rgb(84, 83, 83);
+        padding:14px;
+        outline: none;
+        font-size:16px;
+        font-weight: 400;
+        border-radius: 26px;
+        width:92vw;
+        margin: auto;
+    
+    }
+    header img{
+        width:260px;
+    }
+  }
+  @media screen and (max-width: 372px) {
+    header input{
+        border:1px  solid rgb(84, 83, 83);
+        padding:14px;
+        outline: none;
+        font-size:16px;
+        font-weight: 400;
+        border-radius: 26px;
+        width:96vw;
+        margin: auto;
+    
+    }
+    header img{
+        width:240px;
+    }
+  }
+  @media screen and (max-width: 312px) {
+    header input{
+        border:1px  solid rgb(84, 83, 83);
+        padding:14px;
+        outline: none;
+        font-size:16px;
+        font-weight: 400;
+        border-radius: 26px;
+        width:96vw;
+        margin: auto;
+    
+    }
+    header img{
+        width:200px;
+    }
+  }
+  @media screen and (max-width: 272px) {
+    header input{
+        border:1px  solid rgb(84, 83, 83);
+        padding:14px;
+        outline: none;
+        font-size:16px;
+        font-weight: 400;
+        border-radius: 26px;
+        width:96vw;
+        margin: auto;
+    
+    }
+    header img{
+        width:160px;
+    }
+  }
